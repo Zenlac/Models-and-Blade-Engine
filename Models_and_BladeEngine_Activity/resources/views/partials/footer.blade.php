@@ -1,5 +1,5 @@
 
-<p class="font-bold underline">
+<p class="font-bold underline text-white">
         End of Page
     </p>
 </body>

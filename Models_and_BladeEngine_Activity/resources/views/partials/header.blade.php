@@ -6,7 +6,7 @@
     @vite('resources/css/app.css')
     <title>Models and Blade Engine</title>
 </head>
-<body>
-    <p class="font-bold underline">
+<body class="bg-cyan-900 justify-center items-center h-screen">
+    <p class="font-bold underline text-white">
         Start of Page
     </p>
