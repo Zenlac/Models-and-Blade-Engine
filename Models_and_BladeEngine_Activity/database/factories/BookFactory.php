@@ -3,6 +3,7 @@
 namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
+use App\Models\Book;
 
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Book>
@@ -14,14 +15,16 @@ class BookFactory extends Factory
      *
      * @return array<string, mixed>
      */
+
+     protected $model = Book::class;
     public function definition(): array
     {
         return [
-            'id' => fake()->unique()->id(),
+            'id' => fake()->unique()->randomNumber(),
             'isbn' => fake()->unique()->isbn13(),
-            'title' => fake()->title(),
+            'title' => fake()->text(50),
             'author' => fake()->name(),
-            'description' => fake()->paragraph(),
+            'description' => fake()->text(100),
             'date_published'=> fake()->date(),
         ];
     }

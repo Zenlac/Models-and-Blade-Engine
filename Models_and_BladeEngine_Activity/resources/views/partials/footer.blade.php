@@ -1,4 +1,6 @@
 
-<p>This is the footer</p>
+<p class="font-bold underline">
+        End of Page
+    </p>
 </body>
 </html>

@@ -7,6 +7,6 @@
     <title>Models and Blade Engine</title>
 </head>
 <body>
-    <p class="text-3xl font-bold underline">
-        this is the header
+    <p class="font-bold underline">
+        Start of Page
     </p>
